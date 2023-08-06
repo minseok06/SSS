@@ -3,7 +3,7 @@ let positionX = 0;
 let positionY = 0;
 let directionX = 1;
 let directionY = 1;
-const speed = 2;
+const speed = 9;
 
 function animateCircle() {
   positionX += directionX * speed;
@@ -21,10 +21,10 @@ function animateCircle() {
     directionY =-directionY;
   }
 
-
   movingCircle.style.left = positionX + 'px'; //style요소 조작을 위한 문법
   movingCircle.style.top = positionY + 'px';
 
+  requestAnimationFrame(animateCircle);
 }
 
 animateCircle();
