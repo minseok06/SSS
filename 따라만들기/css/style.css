@@ -14,8 +14,10 @@ li{
     height: 2900px;
 }
 header{
+    background-image: url("https://api.actionistconsulting.com/wp-content/uploads/2023/02/Home-1920x1013.jpg");
     height: 970px;
-    background: rgb(31, 159, 168);
+    background-size: cover;
+    /* background: rgb(31, 159, 168); */
 }
 .logo{
     float: left;
