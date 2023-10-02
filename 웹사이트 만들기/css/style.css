@@ -1,0 +1,69 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은 고딕";
+    color: #fff;
+}
+html,body{
+    min-width: 1200px;
+    background: #fff;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.bak{
+    background: url(../images/mainimg.jpg);
+    height: 963px;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 110px;
+}
+.logo{
+    float: left;
+    width: 350px;
+    height: 110px;
+}
+.logo>a{
+    width: 120px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 34px;
+    margin-left: 100px;
+}
+.menu{
+    float: right;
+    width: 700px;
+    height: 110px;
+    z-index: 1;
+}
+.navi{
+    float: right;
+    margin-top: 34px;
+    margin-right: 100px;
+}
+.navi>li{
+    float: left;
+}
+.navi>li>a{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+.navi>li>a:hover{
+    font-weight: bold;
+}
+.user-text{
+    text-align: center;
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    font-size: 50px;
+    font-weight: bold;
+}
