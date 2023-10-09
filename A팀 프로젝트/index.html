@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>화이팅!</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="logo">
+                <a href="#">A팀 프로젝트</a>
+            </div>
+            <nav class="menu">
+                <ul class="navi">
+                    <li><a href="#">명언1</a></li>
+                    <li><a href="#">명언2</a></li>
+                    <li><a href="#">명언3</a></li>
+                    <li><a href="#">명연4</a></li>
+                    <li><a href="#">명연5</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="con1">
+        <a href="#">이끌든가<br>따르든가<br>비키든가</a>
+        <button onClick='setTimeout("location.reload()", 500);'>눌러보세요</button>
+        </div>
+    </div>
+    <div class="con2">
+        <a href="#">계획 없는 목표는<br>한낱 꿈에 불과하다.</a>
+    </div>
+    <script>
+        document.querySelector('button').addEventListener('click', function(){
+            document.querySelector('body').style.transform = 'translateY(-963px)';
+        });
+    </script>
+</body>
+</html>
