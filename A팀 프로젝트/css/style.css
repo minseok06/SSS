@@ -3,66 +3,72 @@
     padding: 0;
     list-style: none;
     font-family: "맑은 고딕";
-    color: #fff;
+    color: white;
 }
 html,body{
     width: 100%;
     height: 100%;
-    /* min-width: 1903px; */
-    background: #fff;
     font-size: 20px;
     transition: transform 0.5s;
+}
+body{
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar{
+    display: none;
 }
 a{
     text-decoration: none;
     display: block;
 }
-.main{
+header{
     background: url("../images/도로.jpg");
     background-size: cover;
-    background-position: 100% 55%;
-    /* height: 963px; */
+    background-position: 100%;
     height: 100%;
 }
-header{
-    width: 100%;
-    height: 110px;
-    position: fixed;
+.wrap{
+    width: 1800px;
 }
 .logo{
     float: left;
-    width: 350px;
-    height: 110px;
+    width: 250px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.5);
 }
 .logo>a{
-    font-weight: bold;
-    font-size: 25px;
     margin-top: 34px;
+    font-size: 25px;
+    font-weight: bold;
     text-align: center;
 }
 .menu{
     float: right;
-    width: 700px;
-    height: 110px;
-    z-index: 1;
+    width: 800px;
+    height: 100px;
 }
 .navi{
     float: right;
     margin-top: 34px;
-    margin-right: 100px;
 }
 .navi>li{
     float: left;
 }
 .navi>li>a{
-    width: 100px;
+    width: 180px;
     height: 40px;
     line-height: 40px;
-    text-align: center;
     font-size: 16px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
 }
 .navi>li>a:hover{
     font-weight: bold;
+}
+button{
+    background: none;
+    border: none;
+    font-size: 20px;
 }
 .con1{
     text-align: center;
@@ -70,15 +76,10 @@ header{
     font-weight: bold;
     padding-top: 200px;
 }
-button{
-    color: black;
-    font-size: 20px;
-}
 .con2{
     background: url("../images/은하수.jpg");
     background-size: cover;
     background-position: 100% 70%;
-    /* height: 963px; */
     height: 100%;
     font-size: 100px;
 }
